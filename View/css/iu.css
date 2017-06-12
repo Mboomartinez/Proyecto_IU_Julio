@@ -1,0 +1,112 @@
+h3 {
+    color: chartreuse;
+    margin-top: 25px;
+    margin-left: 100px;
+    text-align: left;
+    text-decoration: underline;
+    text-anchor: 100px;
+    letter-spacing: 20px;
+    text-indent: 40px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    font-size: 500%;
+    background-color: blue;
+    width: 25px;
+}
+.container{
+    background-color: green;
+    width:100%;
+}
+
+.inlineElement{
+    background-color: red;
+    display: inline-block;
+    min-width: 100px;
+    width: 24%;
+    z-index: 10;
+    float: right;
+}
+.elem{
+    height: 100px;
+}
+.middle_elem{
+    background-color: yellow;
+}
+.positionElem {
+    float: right;
+    top: 50px;
+    z-index: 1;
+}
+.blockElem{
+    background-color: blue;
+}
+body {
+
+    margin: 0px;
+}
+.títuloH1 {
+    color: purple;
+    text-align: left;
+    text-decoration: underline;
+    text-anchor: 50px;
+    letter-spacing: 20px;
+    text-indent: 40px;
+    word-spacing: 20px;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+}
+
+.boton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    color: gold;
+    text-decoration: underline;
+}
+
+.lista {
+    list-style-type: none;
+    background-color: black;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.listaElem {
+    display: inline-block;
+    color: white;
+    background-color: purple;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.listaElem:hover {
+    color: red;
+    background-color: aqua;
+}
+
+.enlace:visited {
+    color: aqua;
+}
+.enlace:hover{
+    background-color: aquamarine;
+}
+.enlace{
+    color: red;
+    position: fixed;
+    top: 20px;
+}
