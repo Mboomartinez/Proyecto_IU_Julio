@@ -1,0 +1,130 @@
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-heigth: 1.6;
+    color: #000000;
+    background-color: #CCCCCC;
+    margin: 0;
+}
+
+h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    background-color: #CCCCCC;
+    margin: 0;
+}
+
+.header {
+    background-color: #333333;
+    text-align: center;
+    position: fixed;
+    left:0;
+    top: 0;
+    max-height: 10%;
+    min-height: 10%;
+    width: 100%;
+}
+
+.content {
+    margin-top: 10%;
+    margin-left: 30%;
+    min-height: 80%;
+    max-height: 80%;
+    height: 80%;
+    width:70%;
+    background-color: #CCCCCC;
+    display: inline-block;
+}
+
+
+.sidebar {
+    width: 30%;
+    background-color: azure;
+    text-align: center;
+    display: inline-block;
+    -webkit-margin-end: 0;
+    position: fixed;
+    left:0;
+    bottom: 10%;
+    top: 10%;
+    max-height: 80%;
+}
+
+.footer {
+    clear: both;
+    background-color: #333333;
+    text-align: center;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    min-height: 10%;
+}
+
+.tabla {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+.encabezado {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #314755;
+    background-image: url(fondo_th.png);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #558FA6;
+    border-bottom-color: #558FA6;
+    font-family: “Trebuchet MS”, Arial;
+    text-transform: uppercase;
+
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+.filaImpar {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #93c7d2;
+    background-image: url(fondo_th.png);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #558FA6;
+    border-bottom-color: #558FA6;
+    font-family: “Trebuchet MS”, Arial;
+    text-transform: uppercase;
+}
+
+.filaPar {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #658ed2;
+    background-image: url(fondo_th.png);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #558FA6;
+    border-bottom-color: #558FA6;
+    font-family: “Trebuchet MS”, Arial;
+    text-transform: uppercase;
+}
+
